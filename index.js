@@ -17,11 +17,6 @@
  *    Crie um novo remote a partir do mesmo projeto. Dessa vez, o remote deverá se chamar prod ;
  *    Em seguida, configure as variáveis de ambiente para terem valores diferentes por ambiente.
  * 
- * Exercício 5 : Faça deploy de uma aplicação React.
- *    Crie uma aplicação React utilizando create-react-app ;
- *    Crie um novo app utilizando o buildpack mars/create-react-app;
- *    Então, faça o deploy do app no Heroku.
- * 
  */
 
  require('dotenv').config();
