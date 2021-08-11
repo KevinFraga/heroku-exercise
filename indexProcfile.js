@@ -7,7 +7,7 @@ require('dotenv').config();
 
  const port = `Estou rodando pelo heroku na porta ${PORT}`;
 
- const message = 'Procfile funciona mesmo!';
+ const message = process.env.MESSAGE_PROD;
  
  app.get('/', (_req, res, _next) => {
    res.send({ message, port });
